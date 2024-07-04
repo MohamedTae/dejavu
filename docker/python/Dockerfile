@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.13.0b2
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install \
     gcc nano \
